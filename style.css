@@ -74,9 +74,17 @@ ul {
 @media only screen and (max-width: 1000px) {
     /* Adjustments for smaller screens */
     .main {
-        margin: 20px auto;
+        /* margin: 20px auto;
         padding: 10px;
-        font-size: 14px;
+        font-size: 14px; */
+        
+        border: 2px solid white;
+        margin: 50px auto; /* Centering the main content */
+        max-width: 1000px; /* Limiting the maximum width for better readability */
+        padding: 20px;
+        font-size: 16px;
+        color: black;
+        background-color: white;
     }
 
     h4 {
