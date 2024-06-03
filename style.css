@@ -71,7 +71,7 @@ ul {
     white-space: pre;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     /* Adjustments for smaller screens */
     .main {
         margin: 20px auto;
