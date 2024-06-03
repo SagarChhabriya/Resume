@@ -10,7 +10,7 @@ body {
 .main {
     border: 2px solid white;
     margin: 50px auto; /* Centering the main content */
-    max-width: 800px; /* Limiting the maximum width for better readability */
+    max-width: 1000px; /* Limiting the maximum width for better readability */
     padding: 20px;
     font-size: 16px;
     color: black;
