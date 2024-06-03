@@ -1,0 +1,103 @@
+
+body {
+    background-color: #dadaeb;
+    background-image: radial-gradient(#323259 1px, transparent 1px), radial-gradient(#323259 1px, #dadaeb 1px);
+    background-size: 32px 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    border: 2px solid white;
+    margin: 50px auto; /* Centering the main content */
+    max-width: 800px; /* Limiting the maximum width for better readability */
+    padding: 20px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+
+.contact {
+    font-size: 16px;
+    margin: 10px 0;
+    white-space: pre;
+}
+
+.hide {
+    display: none; /* Hide the elements with this class */
+}
+
+h4 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    font-size: 14px;
+}
+
+#redirect {
+    font-size: 16px;
+}
+
+.summary,
+.experience,
+.education,
+.projects,
+.certification {
+    margin-bottom: 20px;
+}
+
+#summary {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#experience,
+#projects {
+    margin: 10px 0;
+    white-space: pre;
+}
+
+#skills {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#certification1,
+#certification2 {
+    margin: 10px 0;
+    white-space: pre;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .main {
+        margin: 20px auto;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 10px;
+    }
+
+    #redirect {
+        font-size: 14px;
+    }
+
+    #skills {
+        font-size: 12px;
+    }
+
+    #certification1,
+    #certification2 {
+        font-size: 14px;
+        white-space: pre;
+    }
+}
