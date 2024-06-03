@@ -10,7 +10,7 @@ body {
 .main {
     border: 2px solid white;
     margin: 50px auto; /* Centering the main content */
-    max-width: 1000px; /* Limiting the maximum width for better readability */
+    width: 75%; /* Change max-width to width */
     padding: 20px;
     font-size: 16px;
     color: black;
@@ -80,7 +80,7 @@ ul {
         
         border: 2px solid white;
         margin: 50px auto; /* Centering the main content */
-        max-width: 1000px; /* Limiting the maximum width for better readability */
+       width: 75%;
         padding: 20px;
         font-size: 16px;
         color: black;
